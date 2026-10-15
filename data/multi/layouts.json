@@ -1,0 +1,431 @@
+[
+    {
+        "title": "fishes-cw",
+        "prompt": "Two koi fish swimming in a calm pond, one deep blue and one bright orange, painted in thick expressive Asian ink brush style",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/circle_cw_r.mp4",
+            "masks/circle_cw_l.mp4"
+        ],
+        "mask-word-pairs": [
+            [9,10],
+            [13,14]
+        ],
+        "mask-labels": [
+            "blue",
+            "orange"
+        ],
+        "height": 720,
+        "width": 720
+    },
+    {
+        "title": "fishes-ccw",
+        "prompt": "Two koi fish swimming in a calm pond, one deep blue and one bright orange, painted in thick expressive Asian ink brush style",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/circle_ccw_l.mp4",
+            "masks/circle_ccw_r.mp4"
+        ],
+        "mask-word-pairs": [
+            [9,10],
+            [13,14]
+        ],
+        "mask-labels": [
+            "blue",
+            "orange"
+        ],
+        "height": 720,
+        "width": 720
+    },
+    {
+        "title": "dunk-moon",
+        "prompt": "A basketball player on the moon soaring midair, ball in hand, dunking into a hoop against a star-filled cosmic sky.",
+        "negative_prompt": "low resolution, blurry, flat lighting, distorted anatomy, extra limbs, awkward poses, cluttered scene, dull colors, text, watermark, logo",
+
+        "masks": [
+            "masks/dunk.mp4",
+            "masks/hoop_rect.mp4"
+        ],
+        "mask-word-pairs": [[1, 2],[14]],
+        "mask-labels": [
+            "basketball player",
+            "hoop"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "dunk-moon-3-parts",
+        "prompt": "A basketball player on the moon soaring midair, ball in hand, dunking into a hoop against a star-filled cosmic sky.",
+        "negative_prompt": "low resolution, blurry, flat lighting, distorted anatomy, extra limbs, awkward poses, cluttered scene, dull colors, text, watermark, logo",
+
+        "masks": [
+            "masks/dunk.mp4",
+            "masks/bottom_1_third.mp4",
+            "masks/hoop_rect.mp4"
+        ],
+        "mask-word-pairs": [[1, 2], [5],[14]],
+        "mask-labels": [
+            "basketball player",
+            "moon land",
+            "hoop"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "slalom-ski-tl",
+        "prompt": "A skier carving a slalom through trees. static camera, locked-off shot, tripod-mounted camera, fixed framing.",
+        "enhanced_prompt": "A professional skier carving aggressively through a narrow forest slalom, captured mid-turn with razor-sharp precision. The skier leans deeply into the carve, skis slicing through fresh powder, sending a dramatic spray of snow crystals into the air. Detailed winter gear ripples with motion, goggles reflecting the surrounding trees, and fine ice particles cling to fabric and edges. Tall snow-covered pine trees rush past on both sides, slightly motion-blurred to emphasize speed, while shafts of cold alpine sunlight break through the branches, creating dramatic rim lighting and high-contrast shadows on the snow. The trail is steep and dynamic, with visible ski tracks cutting clean arcs through pristine powder. Low-angle action camera perspective, cinematic depth of field, dynamic motion blur, ultra-realistic textures, volumetric light beams, crisp cold color grading, high contrast, realistic physics, energetic composition, ultra-clean detail, 8K quality, intense winter sports atmosphere. static camera, locked-off shot, tripod-mounted camera, fixed framing.",
+        "negative_prompt": "camera movement, moving camera, camera pan, panning, pan left, pan right, camera tilt, tilt up, tilt down, camera roll, zoom, zoom in, zoom out, dolly, dolly in, dolly out, tracking shot, follow shot, handheld camera, shaky camera, cinematic camera, dynamic framing, changing framing, reframing, lens shift, focal length change, perspective change, parallax, motion blur, rolling shutter, time-lapse, hyperlapse, dynamic shot, action camera, drone shot, steadycam, cinematic movement, dramatic camera, immersive camera, scene transition, cut, jump cut, blurry, low detail, flat lighting, distorted anatomy, extra limbs, stiff pose, cluttered background, dull colors, cartoon style, text, watermark, logo",
+        "masks": [
+            "masks/slalom-from-tl.mp4",
+            "masks/pillars.mp4"
+        ],
+        "mask-word-pairs": [
+            [1],
+            [6]
+        ],
+        "mask-labels": [
+            "skier",
+            "trees"
+        ],
+        "enhanced-mask-word-pairs": [
+                [2, 16, 1, 3, 4, 17, 18, 21, 22, 23, 26, 37, 38, 39, 40, 43, 42, 70, 99, 100, 101, 103],
+                [47, 60, 8, 46, 57, 58, 59, 80, 76, 72]
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "slalom-ski-tr",
+        "prompt": "A skier carving a slalom through trees. static camera, locked-off shot, tripod-mounted camera, fixed framing.",
+        "enhanced_prompt": "A professional skier carving aggressively through a narrow forest slalom, captured mid-turn with razor-sharp precision. The skier leans deeply into the carve, skis slicing through fresh powder, sending a dramatic spray of snow crystals into the air. Detailed winter gear ripples with motion, goggles reflecting the surrounding trees, and fine ice particles cling to fabric and edges. Tall snow-covered pine trees rush past on both sides, slightly motion-blurred to emphasize speed, while shafts of cold alpine sunlight break through the branches, creating dramatic rim lighting and high-contrast shadows on the snow. The trail is steep and dynamic, with visible ski tracks cutting clean arcs through pristine powder. Low-angle action camera perspective, cinematic depth of field, dynamic motion blur, ultra-realistic textures, volumetric light beams, crisp cold color grading, high contrast, realistic physics, energetic composition, ultra-clean detail, 8K quality, intense winter sports atmosphere. static camera, locked-off shot, tripod-mounted camera, fixed framing.",
+        "negative_prompt": "camera movement, moving camera, camera pan, panning, pan left, pan right, camera tilt, tilt up, tilt down, camera roll, zoom, zoom in, zoom out, dolly, dolly in, dolly out, tracking shot, follow shot, handheld camera, shaky camera, cinematic camera, dynamic framing, changing framing, reframing, lens shift, focal length change, perspective change, parallax, motion blur, rolling shutter, time-lapse, hyperlapse, dynamic shot, action camera, drone shot, steadycam, cinematic movement, dramatic camera, immersive camera, scene transition, cut, jump cut, blurry, low detail, flat lighting, distorted anatomy, extra limbs, stiff pose, cluttered background, dull colors, cartoon style, text, watermark, logo",
+        "masks": [
+            "masks/slalom-from-tr.mp4",
+            "masks/pillars.mp4"
+        ],
+        "mask-word-pairs": [
+            [1],
+            [6]
+        ],
+        "mask-labels": [
+            "skier",
+            "trees"
+        ],
+        "enhanced-mask-word-pairs": [
+                [2, 16, 1, 3, 4, 17, 18, 21, 22, 23, 26, 37, 38, 39, 40, 43, 42, 70, 99, 100, 101, 103],
+                [47, 60, 8, 46, 57, 58, 59, 80, 76, 72]
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "android",
+        "prompt": "Portrait of a lifelike android, exposed robotic optic beneath the skin, realistic human facial features.",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        "masks": [
+            "masks/portrait_left_eye.mp4",
+            "masks/portrait_face.mp4"
+        ],
+        "mask-word-pairs": [
+            [4,5,6],
+            [11,12,13,14]
+        ],
+        "mask-labels": [
+            "eye",
+            "face"
+        ],
+        "height": 720,
+        "width": 720
+    },
+    {
+        "title": "sea-creature",
+        "prompt": "Hand-painted ink creature emerging, extremely realistic deep ocean trench with photoreal volumetric light rays.",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/rect_b-to-t.mp4",
+            "masks/bottom_2_thirds_square.mp4"
+        ],
+        "mask-word-pairs": [
+            [0,1,2],
+            [5,6,7,8,11]
+        ],
+        "mask-labels": [
+            "ink",
+            "realistic"
+        ],
+        "height": 720,
+        "width": 720
+    },
+    {
+        "title": "spirit-tr",
+        "prompt": "Hand-painted glowing ink spirit flying through photoreal ancient stone pillars.",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/slalom-from-tr.mp4",
+            "masks/pillars.mp4"
+        ],
+        "mask-word-pairs": [
+            [0,1,2,3],
+            [6,7,8,9]
+        ],
+        "mask-labels": [
+            "ink",
+            "realistic"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "spirit-tl",
+        "prompt": "Hand-painted glowing ink spirit flying through photoreal ancient stone pillars.",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/slalom-from-tl.mp4",
+            "masks/pillars.mp4"
+        ],
+        "mask-word-pairs": [
+            [0,1,2,3],
+            [6,7,8,9]
+        ],
+        "mask-labels": [
+            "ink",
+            "realistic"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "origami-ship-l-to-r",
+        "prompt": "Origami paper ship flying forward, folded geometric paper style, drifting through vast hyper-realistic clouds and sky, cinematic scale, soft atmospheric lighting.",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/l-to-r.mp4",
+            "masks/bottom_2_thirds_square.mp4"
+        ],
+        "mask-word-pairs": [
+            [0,1,2,5,6,7,8],
+            [12,13,15]
+        ],
+        "mask-labels": [
+            "ink",
+            "realistic"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "origami-ship-r-to-l",
+        "prompt": "Origami paper ship flying forward, folded geometric paper style, drifting through vast hyper-realistic clouds and sky, cinematic scale, soft atmospheric lighting.",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/r-to-l.mp4",
+            "masks/bottom_2_thirds_square.mp4"
+        ],
+        "mask-word-pairs": [
+            [0,1,2,5,6,7,8],
+            [12,13,15]
+        ],
+        "mask-labels": [
+            "ink",
+            "realistic"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "explosion-tr-person-l-to-r",
+        "prompt": "A man walking calmly as a dramatic explosion erupts behind him.",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/l-to-r.mp4",
+            "masks/explosion-tr.mp4"
+        ],
+        "mask-word-pairs": [
+            [1],
+            [7]
+        ],
+        "mask-labels": [
+            "man",
+            "explosion"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "explosion-tl-person-r-to-l",
+        "prompt": "A man walking calmly as a dramatic explosion erupts behind him.",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/r-to-l.mp4",
+            "masks/explosion-tl.mp4"
+        ],
+        "mask-word-pairs": [
+            [1],
+            [7]
+        ],
+        "mask-labels": [
+            "man",
+            "explosion"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "human-left-ink-right",
+        "prompt": "A realistic human figure confronting a living ink-painted mirror version, fluid brush strokes vs natural skin, surreal artistic tension",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/left_2_thirds.mp4",
+            "masks/right.mp4"
+        ],
+        "mask-word-pairs": [
+            [1,2,3,14,15],
+            [6,7,8,9,10,11,12]
+        ],
+        "mask-labels": [
+            "human",
+            "ink"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "human-right-ink-left",
+        "prompt": "A realistic human figure confronting a living ink-painted mirror version, fluid brush strokes vs natural skin, surreal artistic tension",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/right.mp4",
+            "masks/left_2_thirds.mp4"
+        ],
+        "mask-word-pairs": [
+            [1,2,3,14,15],
+            [6,7,8,9,10,11,12]
+        ],
+        "mask-labels": [
+            "human",
+            "ink"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "paint-left-ink-right",
+        "prompt": "A vibrant multicolored liquid paint figure colliding with a black-and-white ink shadow figure, explosive paint splatter and ink burst, both forms dispersing and drifting apart, surreal artistic motion",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/left_box_fast.mp4",
+            "masks/right_box_fast.mp4"
+        ],
+        "mask-word-pairs": [
+            [1,2,3,4,5,14,15],
+            [9,10,11,12,17,18]
+        ],
+        "mask-labels": [
+            "paint",
+            "ink"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "paint-right-ink-left",
+        "prompt": "A vibrant multicolored liquid paint figure colliding with a black-and-white ink shadow figure, explosive paint splatter and ink burst, both forms dispersing and drifting apart, surreal artistic motion",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/right_box_fast.mp4",
+            "masks/left_box_fast.mp4"
+        ],
+        "mask-word-pairs": [
+            [1,2,3,4,5,14,15],
+            [9,10,11,12,17,18]
+        ],
+        "mask-labels": [
+            "paint",
+            "ink"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "dolphin-r-to-l-clouds",
+        "prompt": "A graceful dolphin leaping upward from a vast ocean of soft clouds, dreamlike sky, floating mist, surreal cinematic atmosphere",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/r-to-l-jump.mp4",
+            "masks/bottom_2_thirds.mp4"
+        ],
+        "mask-word-pairs": [
+            [1,2,3,4],
+            [7,8,10,11,12,13,14,15]
+        ],
+        "mask-labels": [
+            "dolphin",
+            "clouds"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "dolphin-left-boat-right-clouds",
+        "prompt": "A graceful dolphin leaping from a vast sea of clouds as a speeding boat slices through the mist, dreamlike sky, surreal cinematic atmosphere",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/l-to-r-jump.mp4",
+            "masks/r-to-l.mp4",
+            "masks/bottom_2_thirds.mp4"
+        ],
+        "mask-word-pairs": [
+            [1,2,3],
+            [12,13,14],
+            [6,7,9,17,18,19]
+        ],
+        "mask-labels": [
+            "dolphin",
+            "boat",
+            "clouds"
+        ],
+        "height": 480,
+        "width": 720
+    },
+    {
+        "title": "dolphin-left-boat-right-clouds-paper",
+        "prompt": "A graceful dolphin leaping from a vast sea of clouds as a speeding boat slices through the mist, dreamlike sky, surreal cinematic atmosphere, delicate layered paper art style, handcrafted textures",
+        "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+        
+        "masks": [
+            "masks/l-to-r-jump.mp4",
+            "masks/r-to-l.mp4",
+            "masks/bottom_2_thirds.mp4"
+        ],
+        "mask-word-pairs": [
+            [1,2,3],
+            [12,13,14],
+            [6,7,9,17,18,19,23,24,25,26,27,28,29]
+        ],
+        "mask-labels": [
+            "dolphin",
+            "boat",
+            "clouds"
+        ],
+        "height": 480,
+        "width": 720
+    }
+]

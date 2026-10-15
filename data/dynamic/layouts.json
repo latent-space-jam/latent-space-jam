@@ -1,0 +1,768 @@
+[
+  {
+    "title": "blacks-swan-l-to-r",
+    "prompt": "A black swan swimming in a lake",
+    "enhanced_prompt": "A graceful black swan gliding smoothly across a calm freshwater lake, gentle ripples spreading through reflective water, soft morning light illuminating its dark feathers, natural wetland surroundings with reeds and distant trees, serene mood, realistic water physics, shallow depth of field, cinematic nature documentary style.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/l-to-r.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "mask-labels": [
+      "swan"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "blacks-swan-r-to-l",
+    "prompt": "A black swan swimming in a lake",
+    "enhanced_prompt": "A graceful black swan gliding smoothly across a calm freshwater lake, gentle ripples spreading through reflective water, soft morning light illuminating its dark feathers, natural wetland surroundings with reeds and distant trees, serene mood, realistic water physics, shallow depth of field, cinematic nature documentary style.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/r-to-l.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "mask-labels": [
+      "swan"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "bicyclist-l-to-r",
+    "prompt": "A bicyclist riding in front of a painted wall",
+    "enhanced_prompt": "A bicyclist casually riding past a large, colorful painted mural wall, urban street setting, vibrant graffiti textures, afternoon sunlight casting soft shadows, smooth forward motion, slightly handheld camera feel, realistic city atmosphere, modern lifestyle aesthetic.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/l-to-r.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "bicyclist"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "bicyclist-r-to-l",
+    "prompt": "A bicyclist riding in front of a painted wall",
+    "enhanced_prompt": "A bicyclist casually riding past a large, colorful painted mural wall, urban street setting, vibrant graffiti textures, afternoon sunlight casting soft shadows, smooth forward motion, slightly handheld camera feel, realistic city atmosphere, modern lifestyle aesthetic.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/r-to-l.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "bicyclist"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "break-dance-tr-to-bl",
+    "prompt": "A man performing break dance in a crowded street",
+    "enhanced_prompt": "A man performing energetic breakdance moves on a busy city street, spinning and balancing on his hands, surrounded by a lively crowd watching and cheering, urban environment with storefronts and street signs, dynamic camera angles, motion blur on limbs, vibrant street culture, cinematic realism.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tr-to-bl.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "man"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "break-dance-tl-to-br",
+    "prompt": "A man performing break dance in a crowded street",
+    "enhanced_prompt": "A man performing energetic breakdance moves on a busy city street, spinning and balancing on his hands, surrounded by a lively crowd watching and cheering, urban environment with storefronts and street signs, dynamic camera angles, motion blur on limbs, vibrant street culture, cinematic realism.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tl-to-br.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "man"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "camel-br-to-tl",
+    "prompt": "A camel walking in a zoo enclosure",
+    "enhanced_prompt": "A camel slowly walking inside a spacious zoo enclosure, sandy ground and rocks beneath its feet, fenced background with sparse desert vegetation, warm daylight, natural animal movement, realistic fur detail, calm observational wildlife footage style.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/br-to-tl.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "camel"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "camel-bl-to-tr",
+    "prompt": "A camel walking in a zoo enclosure",
+    "enhanced_prompt": "A camel slowly walking inside a spacious zoo enclosure, sandy ground and rocks beneath its feet, fenced background with sparse desert vegetation, warm daylight, natural animal movement, realistic fur detail, calm observational wildlife footage style.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/bl-to-tr.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "camel"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "car-roundabout-from-tl",
+    "prompt": "A car driving around a roundabout",
+    "enhanced_prompt": "A modern car smoothly driving around a circular roundabout, landscaped center with grass and shrubs, suburban environment, daytime lighting, steady tracking camera, realistic tire motion and reflections on the car body, clean cinematic look.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/roundabout-from-tl.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "car"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "car-roundabout-from-tr",
+    "prompt": "A car driving around a roundabout",
+    "enhanced_prompt": "A modern car smoothly driving around a circular roundabout, landscaped center with grass and shrubs, suburban environment, daytime lighting, steady tracking camera, realistic tire motion and reflections on the car body, clean cinematic look.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/roundabout-from-tr.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "car"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "car-street-slalom-from-tl",
+    "prompt": "A car driving on a street",
+    "enhanced_prompt": "A car driving steadily down a city street, buildings and parked cars on both sides, soft daylight, natural traffic flow, forward-facing camera angle, realistic reflections and shadows, everyday urban realism.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/roundabout-from-tl.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "car"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "car-street-slalom-from-tr",
+    "prompt": "A car driving on a street",
+    "enhanced_prompt": "A car driving steadily down a city street, buildings and parked cars on both sides, soft daylight, natural traffic flow, forward-facing camera angle, realistic reflections and shadows, everyday urban realism.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/roundabout-from-tr.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "car"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "cow-tr-to-bl",
+    "prompt": "A cow walking on a grassy field",
+    "enhanced_prompt": "A cow walking slowly across a wide grassy field, lush green grass swaying in the breeze, open countryside landscape, soft natural sunlight, relaxed pace, realistic animal proportions and movement, peaceful rural atmosphere.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tr-to-bl.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "cow"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "cow-tl-to-br",
+    "prompt": "A cow walking on a grassy field",
+    "enhanced_prompt": "A cow walking slowly across a wide grassy field, lush green grass swaying in the breeze, open countryside landscape, soft natural sunlight, relaxed pace, realistic animal proportions and movement, peaceful rural atmosphere.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tl-to-br.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "cow"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "woman-dance-l-to-r",
+    "prompt": "A woman dancing in front of a crowd",
+    "enhanced_prompt": "A woman dancing confidently on an outdoor stage in front of a cheering crowd, expressive body movements, flowing clothing, evening lighting with stage lights and warm highlights, energetic atmosphere, cinematic concert-style framing.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/l-to-r.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "woman"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "woman-dance-r-to-l",
+    "prompt": "A woman dancing in front of a crowd",
+    "enhanced_prompt": "A woman dancing confidently on an outdoor stage in front of a cheering crowd, expressive body movements, flowing clothing, evening lighting with stage lights and warm highlights, energetic atmosphere, cinematic concert-style framing.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/r-to-l.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "woman"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "golden-retriever-slalom-from-tl",
+    "prompt": "A golden retriever walking in a park",
+    "enhanced_prompt": "A golden retriever walking happily along a park path, lush green trees and grass around, sunlight filtering through leaves, gentle tail movement, realistic fur detail, warm and wholesome mood, shallow depth of field.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/slalom-from-tl.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "mask-labels": [
+      "golden retriever"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "golden-retriever-slalom-from-tr",
+    "prompt": "A golden retriever walking in a park",
+    "enhanced_prompt": "A golden retriever walking happily along a park path, lush green trees and grass around, sunlight filtering through leaves, gentle tail movement, realistic fur detail, warm and wholesome mood, shallow depth of field.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/slalom-from-tr.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "mask-labels": [
+      "golden retriever"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "racecar-turning-tl-to-br-curve",
+    "prompt": "A racecar turning on a track",
+    "enhanced_prompt": "A professional racecar sharply turning on a racetrack, tires gripping the asphalt, visible racing lines on the track, grandstands in the background, bright daylight, fast panning camera, high-speed motorsport realism.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tl-to-br-curve.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "racecar"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "racecar-turning-tr-to-bl-curve",
+    "prompt": "A racecar turning on a track",
+    "enhanced_prompt": "A professional racecar sharply turning on a racetrack, tires gripping the asphalt, visible racing lines on the track, grandstands in the background, bright daylight, fast panning camera, high-speed motorsport realism.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tr-to-bl-curve.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "racecar"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "racecar-drifting-slalom-from-tl",
+    "prompt": "A racecar drifting on a track",
+    "enhanced_prompt": "A racecar drifting aggressively through a corner on a racetrack, rear tires producing thick smoke, car angled sideways, intense motion blur, dramatic camera angle, high-contrast lighting, cinematic racing action.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/slalom-from-tl.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "racecar"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "racecar-drifting-slalom-from-tr",
+    "prompt": "A racecar drifting on a track",
+    "enhanced_prompt": "A racecar drifting aggressively through a corner on a racetrack, rear tires producing thick smoke, car angled sideways, intense motion blur, dramatic camera angle, high-contrast lighting, cinematic racing action.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/slalom-from-tr.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "racecar"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "goat-slalom-from-tl",
+    "prompt": "A goat climbing down some rocks",
+    "enhanced_prompt": "A mountain goat carefully climbing down a rocky slope, uneven stone surfaces beneath its hooves, rugged natural environment, daylight with soft shadows, realistic animal balance and movement, documentary-style realism.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/slalom-from-tl.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "goat"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "goat-slalom-from-tr",
+    "prompt": "A goat climbing down some rocks",
+    "enhanced_prompt": "A mountain goat carefully climbing down a rocky slope, uneven stone surfaces beneath its hooves, rugged natural environment, daylight with soft shadows, realistic animal balance and movement, documentary-style realism.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/slalom-from-tr.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "goat"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "horse-l-to-r-jump",
+    "prompt": "A horse jumping over a hurdle",
+    "enhanced_prompt": "A powerful horse leaping over a hurdle during a show jumping event, muscles tensed mid-air, rider balanced on the saddle, outdoor arena, bright sunlight, slow-motion feel, crisp focus and dramatic sports photography style.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/l-to-r-jump.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "horse"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "horse-r-to-l-jump",
+    "prompt": "A horse jumping over a hurdle",
+    "enhanced_prompt": "A powerful horse leaping over a hurdle during a show jumping event, muscles tensed mid-air, rider balanced on the saddle, outdoor arena, bright sunlight, slow-motion feel, crisp focus and dramatic sports photography style.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/r-to-l-jump.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "horse"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "surfer-tr-to-bl-curve",
+    "prompt": "A man surfing on the waves",
+    "enhanced_prompt": "A man surfing across rolling ocean waves, balanced on a surfboard, water splashing around him, golden sunlight reflecting off the sea, dynamic camera following the motion, realistic wave physics, cinematic beach action.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tr-to-bl-curve.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "man"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "surfer-tl-to-br-curve",
+    "prompt": "A man surfing on the waves",
+    "enhanced_prompt": "A man surfing across rolling ocean waves, balanced on a surfboard, water splashing around him, golden sunlight reflecting off the sea, dynamic camera following the motion, realistic wave physics, cinematic beach action.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tl-to-br-curve.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "man"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "black-dog-tl-to-br",
+    "prompt": "A black dog walking in a park",
+    "enhanced_prompt": "A black dog walking calmly through a public park, green grass and trees surrounding it, soft daylight, gentle head movement, realistic fur texture, peaceful and natural atmosphere.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tl-to-br.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "mask-labels": [
+      "black dog"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "black-dog-tr-to-bl",
+    "prompt": "A black dog walking in a park",
+    "enhanced_prompt": "A black dog walking calmly through a public park, green grass and trees surrounding it, soft daylight, gentle head movement, realistic fur texture, peaceful and natural atmosphere.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tr-to-bl.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "mask-labels": [
+      "black dog"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "motorcyclist-jumping-r-to-l",
+    "prompt": "A motorcyclist jumping over a bump",
+    "enhanced_prompt": "A motorcyclist launching into the air after hitting a small dirt bump, suspension fully extended mid-jump, outdoor off-road setting, dust trailing behind, dramatic angle, high-energy action shot, realistic physics.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/r-to-l-jump.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "motorcyclist"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "motorcyclist-jumping-l-to-r",
+    "prompt": "A motorcyclist jumping over a bump",
+    "enhanced_prompt": "A motorcyclist launching into the air after hitting a small dirt bump, suspension fully extended mid-jump, outdoor off-road setting, dust trailing behind, dramatic angle, high-energy action shot, realistic physics.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/l-to-r-jump.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "motorcyclist"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "man-parachute-tr-to-bl-curve",
+    "prompt": "A man flying off a cliff with a parachute",
+    "enhanced_prompt": "A man jumping off a high cliff with a parachute deployed, vast landscape below with mountains and valleys, strong wind movement, wide cinematic shot, dramatic sense of scale, realistic skydiving motion.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tr-to-bl-curve.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "man"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "man-parachute-tl-to-br-curve",
+    "prompt": "A man flying off a cliff with a parachute",
+    "enhanced_prompt": "A man jumping off a high cliff with a parachute deployed, vast landscape below with mountains and valleys, strong wind movement, wide cinematic shot, dramatic sense of scale, realistic skydiving motion.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tl-to-br-curve.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "man"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "man-jumping-r-to-l",
+    "prompt": "A man jumping over a fence",
+    "enhanced_prompt": "A man running and jumping over a waist-high fence, urban environment, quick athletic movement, natural daylight, slight motion blur, realistic body dynamics, action-focused framing.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/r-to-l-jump.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "man"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "man-jumping-l-to-r",
+    "prompt": "A man jumping over a fence",
+    "enhanced_prompt": "A man running and jumping over a waist-high fence, urban environment, quick athletic movement, natural daylight, slight motion blur, realistic body dynamics, action-focused framing.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/l-to-r-jump.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "man"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "motorcycle-driving-tr-to-bl-curve",
+    "prompt": "A motorcycle driving on the road",
+    "enhanced_prompt": "A motorcycle riding smoothly along an open road, rider leaning slightly forward, asphalt stretching ahead, countryside surroundings, warm daylight, steady tracking shot, cinematic travel vibe.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tr-to-bl-curve.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "motorcycle"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "motorcycle-driving-tl-to-br-curve",
+    "prompt": "A motorcycle driving on the road",
+    "enhanced_prompt": "A motorcycle riding smoothly along an open road, rider leaning slightly forward, asphalt stretching ahead, countryside surroundings, warm daylight, steady tracking shot, cinematic travel vibe.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/tl-to-br-curve.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "motorcycle"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "wagon-r-to-l-jump",
+    "prompt": "A wagon driving over a ramp",
+    "enhanced_prompt": "A wooden wagon rolling up and over a small ramp, wheels lifting briefly off the ground, outdoor setting, playful motion, natural lighting, realistic physics and momentum, lighthearted cinematic tone.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/r-to-l-jump.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "wagon"
+    ],
+    "height": 480,
+    "width": 720
+  },
+  {
+    "title": "wagon-l-to-r-jump",
+    "prompt": "A wagon driving over a ramp",
+    "enhanced_prompt": "A wooden wagon rolling up and over a small ramp, wheels lifting briefly off the ground, outdoor setting, playful motion, natural lighting, realistic physics and momentum, lighthearted cinematic tone.",
+    "negative_prompt": "blurry, low resolution, flat lighting, distorted reflections, unrealistic physics, dull colors, cluttered background, text, watermark, logo",
+    "masks": [
+      "masks_121/l-to-r-jump.mp4"
+    ],
+    "mask-word-pairs": [
+      [
+        1
+      ]
+    ],
+    "mask-labels": [
+      "wagon"
+    ],
+    "height": 480,
+    "width": 720
+  }
+]
