@@ -1,11 +1,12 @@
 <div align="center">
   <img src="assets/logo_latent_jam.svg" alt="Logo" width="100"><br>
   <h1>Latent Space Jam</h1>
-  <b>Layout-Guided Video Generation</b><br>
-  <i>Authors TBD</i><br><br>
-  <a href="">📄 Paper</a> &nbsp;|&nbsp;
+  <b>Layout Guided Video Synthesis</b><br>
+  <i>Asaf Joseph<sup>*</sup>, Moshe Mandel<sup>*</sup>, Ohad Fried</i><br>
+  <sup>*</sup>Equal contribution<br><br>
+  <a href="https://arxiv.org/pdf/2610.30390">📄 Paper</a> &nbsp;|&nbsp;
   <a href="https://latent-space-jam.github.io/">🌐 Project Page</a> &nbsp;|&nbsp;
-  <a href="">📝 arXiv</a>
+  <a href="https://arxiv.org/abs/2610.30390">📝 arXiv</a>
 </div>
 
 ---
@@ -154,11 +155,14 @@ The `data/` directory contains all layout masks used in the paper (dynamic traje
 ## 📜 Citation
 
 ```bibtex
-@article{latentspacejam2025,
-  title={Latent Space Jam: Layout-Guided Video Generation},
-  author={TBD},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2025}
+@misc{joseph2026latentspacejamlayout,
+  title         = {Latent Space Jam: Layout Guided Video Synthesis},
+  author        = {Asaf Joseph and Moshe Mandel and Ohad Fried},
+  year          = {2026},
+  eprint        = {2610.30390},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2610.30390}
 }
 ```
 
